@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+.addrestaurant{
+  display: flex;
+  justify-content: start;
+  padding: 10px 30px;
+  
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
