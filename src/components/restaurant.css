@@ -1,5 +1,5 @@
 .whole_restaurant_body{
-    border: 2px solid red;
+   
     width: 1000px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -9,37 +9,39 @@
 }
 
 .restaurant_main_div{
-    border: 1px solid red;
+    
     width: 500px;
     margin: 30px auto;
+    border: 1px solid black;
+    box-shadow: 5px 10px #888888;
   
 }
 .restaurant_first_part{
-    border: 2px solid green;
+  
     height: 200px;
     display: flex;
 }
 .restaurant_first_part>div:first-child{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 20%;
    
     
 }
 .restaurant_first_part>div:first-child img{
-    border: 1px solid red;
+   
     width: 100%;
     height: 60%;
    
     
 }
 .restaurant_first_part>div:nth-child(2){
-    border: 2px solid green;
+    border: 1px solid black;
     width: 60%;
  
 
 }
 .restaurant_first_part>div:nth-child(3){
-    border: 2px solid green;
+  
     width: 20%;
     
   

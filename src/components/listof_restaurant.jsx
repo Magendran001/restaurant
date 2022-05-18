@@ -11,7 +11,7 @@ function List_of_restaurant({data})
     <div>
        
 
-        <img src={image} alt="" />
+        <img src={image} alt="image.png" />
     </div>
    <div>
        <p>{name}</p>
